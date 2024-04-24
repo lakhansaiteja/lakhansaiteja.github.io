@@ -750,11 +750,11 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img:hover { filter: grayscale(1); }
 
 
 
@@ -1338,6 +1338,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar-info { gap: 25px; }
 
   .avatar-box { border-radius: 30px; }
+
+  .rounded-image { border-radius: 30px; }
 
   .avatar-box img { width: 120px; }
 
