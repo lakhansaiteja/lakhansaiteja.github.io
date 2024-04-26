@@ -309,7 +309,7 @@ main {
 
 
 
-
+/* Phone */
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
@@ -330,6 +330,8 @@ main {
   align-items: center;
   gap: 15px;
 }
+  
+.rounded-image { border-radius: 20px; }
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
@@ -477,7 +479,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: var(--fs-7);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
